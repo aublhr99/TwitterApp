@@ -11,7 +11,7 @@ import com.facebook.stetho.Stetho;
  * including the image cache in memory and on disk. This also adds a singleton
  * for accessing the relevant rest client.
  *
- *     RestClient client = RestApplication.getRestClient(Context context);
+ *     RestClient client = TwitterApp.getRestClient(Context context);
  *     // use client to send requests to API
  *
  */
