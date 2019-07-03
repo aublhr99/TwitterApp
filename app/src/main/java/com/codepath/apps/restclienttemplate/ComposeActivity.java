@@ -3,9 +3,12 @@ package com.codepath.apps.restclienttemplate;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.text.Editable;
+import android.text.TextWatcher;
 import android.util.Log;
 import android.view.View;
 import android.widget.EditText;
+import android.widget.TextView;
 
 import com.codepath.apps.restclienttemplate.models.Tweet;
 import com.codepath.apps.restclienttemplate.models.User;
@@ -21,7 +24,9 @@ import cz.msebera.android.httpclient.Header;
 public class ComposeActivity extends AppCompatActivity {
 
     EditText etNewTweet;
+    TextView tvCharCount;
     TwitterClient twitterClient;
+    private TextWatcher mTextEditorWatcher;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -30,7 +35,26 @@ public class ComposeActivity extends AppCompatActivity {
         //Toast.makeText(this, "Cheers", Toast.LENGTH_LONG).show();
 
         etNewTweet = (EditText) findViewById(R.id.etNewTweet);
+        tvCharCount = (TextView) findViewById(R.id.tvCharCount);
         twitterClient = new TwitterClient(this);
+
+        mTextEditorWatcher = new TextWatcher() {
+            public void beforeTextChanged(CharSequence s, int start, int count, int after) {
+                tvCharCount.setText(String.valueOf(s.length()) + "/280");
+            }
+
+            public void onTextChanged(CharSequence s, int start, int before, int count) {
+                //This sets a textview to the current length
+                tvCharCount.setText(String.valueOf(s.length()) + "/280");
+            }
+
+            public void afterTextChanged(Editable s) {
+                tvCharCount.setText(String.valueOf(s.length()) + "/280");
+            }
+        };
+
+        etNewTweet.addTextChangedListener(mTextEditorWatcher);
+
     }
 
     public void onCompose(View v) {
