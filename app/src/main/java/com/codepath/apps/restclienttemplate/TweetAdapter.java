@@ -1,6 +1,7 @@
 package com.codepath.apps.restclienttemplate;
 
 import android.content.Context;
+import android.content.Intent;
 import android.support.annotation.NonNull;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
@@ -11,13 +12,18 @@ import android.widget.TextView;
 
 import com.bumptech.glide.Glide;
 import com.codepath.apps.restclienttemplate.models.Tweet;
+import com.codepath.apps.restclienttemplate.models.User;
+
+import org.parceler.Parcels;
 
 import java.util.List;
 
+import jp.wasabeef.glide.transformations.RoundedCornersTransformation;
+
 public class TweetAdapter extends RecyclerView.Adapter<TweetAdapter.ViewHolder> {
 
-    private List<Tweet> mTweets;
-    Context context;
+    static List<Tweet> mTweets;
+    static Context context;
 
     public TweetAdapter(List<Tweet> tweets) {
         mTweets = tweets;
@@ -58,6 +64,7 @@ public class TweetAdapter extends RecyclerView.Adapter<TweetAdapter.ViewHolder> 
 
         Glide.with(context)
                 .load(tweet.user.profileImageUrl)
+                .bitmapTransform(new RoundedCornersTransformation(context, 100, 0))
                 .into(viewHolder.ivProfileImage);
     }
 
@@ -66,7 +73,7 @@ public class TweetAdapter extends RecyclerView.Adapter<TweetAdapter.ViewHolder> 
         return mTweets.size();
     }
 
-    public static class ViewHolder extends RecyclerView.ViewHolder {
+    public static class ViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener {
 
         ImageView ivProfileImage;
         TextView tvUsername;
@@ -80,6 +87,24 @@ public class TweetAdapter extends RecyclerView.Adapter<TweetAdapter.ViewHolder> 
             tvUsername = (TextView) itemView.findViewById(R.id.tvUsername);
             tvBody = (TextView) itemView.findViewById(R.id.tvBody);
             tvCreatedAt = (TextView) itemView.findViewById(R.id.tvCreatedAt);
+
+            itemView.setOnClickListener(this);
+        }
+
+        @Override
+        public void onClick(View v) {
+            itemView.setOnClickListener(this);
+            //Toast.makeText(context, "Clicked!", Toast.LENGTH_LONG).show();
+            int position = getAdapterPosition();
+
+            Tweet tweet = mTweets.get(position);
+
+            Intent details = new Intent(context, DetailsActivity.class);
+            details.putExtra(Tweet.class.getSimpleName(), Parcels.wrap(tweet));
+            details.putExtra(User.class.getSimpleName(), Parcels.wrap(tweet.user));
+            details.putExtra("scrollPosition", position);
+
+            context.startActivity(details);
         }
     }
 
