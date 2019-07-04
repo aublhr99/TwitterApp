@@ -43,7 +43,7 @@ public class DetailsActivity extends AppCompatActivity {
 
         Glide.with(this)
                 .load(tweet.user.profileImageUrl)
-                .bitmapTransform(new RoundedCornersTransformation(this, 100, 0))
+                .bitmapTransform(new RoundedCornersTransformation(this, 15, 0))
                 .into(ivProfileImage);
     }
 }
