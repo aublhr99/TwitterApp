@@ -18,8 +18,8 @@
 
     <TextView
         android:id="@+id/tvUsername"
-        android:layout_width="77dp"
-        android:layout_height="22dp"
+        android:layout_width="282dp"
+        android:layout_height="24dp"
         android:layout_marginStart="12dp"
         android:layout_marginTop="16dp"
         android:text="TextView"
@@ -43,16 +43,13 @@
 
     <TextView
         android:id="@+id/tvCreatedAt"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
+        android:layout_width="281dp"
+        android:layout_height="23dp"
+        android:layout_marginStart="12dp"
         android:layout_marginTop="8dp"
-        android:layout_marginEnd="232dp"
         android:layout_marginBottom="28dp"
         android:text="TextView"
         app:layout_constraintBottom_toTopOf="@+id/tvBody"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toEndOf="@+id/ivProfileImage"
         app:layout_constraintTop_toBottomOf="@+id/tvUsername"
         app:layout_constraintVertical_bias="0.4" />
