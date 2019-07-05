@@ -15,7 +15,7 @@
         android:layout_marginEnd="14dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="Name"
+        android:hint="What's Happening?"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.333"
         app:layout_constraintStart_toStartOf="parent"
