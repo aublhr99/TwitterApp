@@ -33,7 +33,10 @@ public class TimelineActivity extends AppCompatActivity {
     private ArrayList<Tweet> tweets;
     private RecyclerView rvTweets;
     private SwipeRefreshLayout swipeContainer;
-    MenuItem miActionProgressItem;
+    private MenuItem miActionProgressItem;
+    private EndlessRecyclerViewScrollListener scrollListener;
+    private LinearLayoutManager llm;
+    private long maxId = 0;
 
 
     @Override
@@ -52,8 +55,20 @@ public class TimelineActivity extends AppCompatActivity {
 
         tweets = new ArrayList<>();
         tweetAdapter = new TweetAdapter(tweets);
-        rvTweets.setLayoutManager(new LinearLayoutManager(this));
+        llm = new LinearLayoutManager(this);
+        rvTweets.setLayoutManager(llm);
         rvTweets.setAdapter(tweetAdapter);
+
+        scrollListener = new EndlessRecyclerViewScrollListener(llm) {
+            @Override
+            public void onLoadMore(int page, int totalItemsCount, RecyclerView view) {
+                // Triggered only when new data needs to be appended to the list
+                // Add whatever code is needed to append new items to the bottom of the list
+                loadNextDataFromApi();
+            }
+        };
+        // Adds the scroll listener to RecyclerView
+        rvTweets.addOnScrollListener(scrollListener);
 
         // Lookup the swipe container view
         swipeContainer = (SwipeRefreshLayout) findViewById(R.id.swipeContainer);
@@ -64,7 +79,8 @@ public class TimelineActivity extends AppCompatActivity {
                 // Your code to refresh the list here.
                 // Make sure you call swipeContainer.setRefreshing(false)
                 // once the network request has completed successfully.
-                populateTimeline();
+                tweetAdapter.clear();
+                populateTimeline(maxId);
             }
         });
         // Configure the refreshing colors
@@ -100,13 +116,12 @@ public class TimelineActivity extends AppCompatActivity {
         startActivityForResult(composeTweet, COMPOSE_TWEET_REQUEST_CODE);
     }
 
-    private void populateTimeline() {
+    private void populateTimeline(long maxId) {
         showProgressBar();
-        twitterClient.getHomeTimeline(new JsonHttpResponseHandler() {
+        twitterClient.getHomeTimeline(maxId, new JsonHttpResponseHandler() {
             @Override
             public void onSuccess(int statusCode, Header[] headers, JSONArray response) {
                 //Log.d("TwitterClient", response.toString());
-                tweetAdapter.clear();
                 for (int i = 0; i < response.length(); i++) {
                     Tweet tweet = null;
                     try {
@@ -171,7 +186,7 @@ public class TimelineActivity extends AppCompatActivity {
     public boolean onPrepareOptionsMenu(Menu menu) {
         // Store instance of the menu item containing progress
         miActionProgressItem = menu.findItem(R.id.miActionProgress);
-        populateTimeline();
+        populateTimeline(maxId);
         // Return to finish
         return super.onPrepareOptionsMenu(menu);
     }
@@ -186,24 +201,9 @@ public class TimelineActivity extends AppCompatActivity {
         miActionProgressItem.setVisible(false);
     }
 
-//    public void fetchTimelineAsync(int page) {
-//        // Send the network request to fetch the updated data
-//        // `client` here is an instance of Android Async HTTP
-//        // getHomeTimeline is an example endpoint.
-//        twitterClient.getHomeTimeline(new JsonHttpResponseHandler() {
-//            public void onSuccess(JSONArray json) {
-//                // Remember to CLEAR OUT old items before appending in the new ones
-//                tweetAdapter.clear();
-//                // ...the data has come back, add new items to your adapter...
-//                tweetAdapter.addAll(tweets);
-//                // Now we call setRefreshing(false) to signal refresh has finished
-//                swipeContainer.setRefreshing(false);
-//            }
-//
-//            public void onFailure(Throwable e) {
-//                Log.d("DEBUG", "Fetch timeline error: " + e.toString());
-//            }
-//        });
-//    }
+    public void loadNextDataFromApi() {
+        maxId = tweets.get(tweets.size() - 1).uid;
+        populateTimeline(maxId);
+    }
 
 }

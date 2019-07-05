@@ -1,6 +1,7 @@
 package com.codepath.apps.restclienttemplate;
 
 import android.os.Bundle;
+import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.widget.ImageView;
 import android.widget.TextView;
@@ -24,6 +25,11 @@ public class DetailsActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_details);
+
+        ActionBar actionBar = getSupportActionBar();
+        actionBar.setDisplayOptions(ActionBar.DISPLAY_SHOW_HOME |
+                ActionBar.DISPLAY_SHOW_TITLE | ActionBar.DISPLAY_HOME_AS_UP | ActionBar.DISPLAY_USE_LOGO);
+        actionBar.setIcon(R.drawable.ic_twitter_logo_whiteonimage);
 
         ivProfileImage = (ImageView) findViewById(R.id.ivProfileImage);
         tvUsername = (TextView) findViewById(R.id.tvUsername);
