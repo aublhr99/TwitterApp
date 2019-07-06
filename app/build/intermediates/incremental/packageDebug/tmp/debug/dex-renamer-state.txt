@@ -1,0 +1,4 @@
+#Fri Jul 05 17:52:19 PDT 2019
+base.0=/Users/aubinlohier/Desktop/TwitterApp/app/build/intermediates/dex/debug/mergeDexDebug/out
+path.0=classes.dex
+renamed.0=classes.dex

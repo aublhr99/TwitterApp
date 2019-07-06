@@ -21,8 +21,7 @@ public class LoginActivity extends OAuthLoginActionBarActivity<TwitterClient> {
 		setContentView(R.layout.activity_login);
 
 		ActionBar actionBar = getSupportActionBar();
-		actionBar.setDisplayOptions(ActionBar.DISPLAY_SHOW_HOME |
-				ActionBar.DISPLAY_SHOW_TITLE | ActionBar.DISPLAY_HOME_AS_UP | ActionBar.DISPLAY_USE_LOGO);
+		actionBar.setDisplayOptions(ActionBar.DISPLAY_SHOW_HOME | ActionBar.DISPLAY_USE_LOGO);
 		actionBar.setIcon(R.drawable.ic_twitter_logo_whiteonimage);
 
 		final SampleModel sampleModel = new SampleModel();

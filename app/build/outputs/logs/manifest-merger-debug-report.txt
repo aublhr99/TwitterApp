@@ -1,0 +1,238 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/aubinlohier/Desktop/TwitterApp/app/src/main/AndroidManifest.xml:2:1-42:12
+INJECTED from /Users/aubinlohier/Desktop/TwitterApp/app/src/main/AndroidManifest.xml:2:1-42:12
+INJECTED from /Users/aubinlohier/Desktop/TwitterApp/app/src/main/AndroidManifest.xml:2:1-42:12
+INJECTED from /Users/aubinlohier/Desktop/TwitterApp/app/src/main/AndroidManifest.xml:2:1-42:12
+MERGED from [com.codepath.libraries:android-oauth-handler:1.4.0] /Users/aubinlohier/.gradle/caches/transforms-2/files-2.1/d9aa33e0e74c625e3c8fa6ba86754c2e/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:design:28.0.0] /Users/aubinlohier/.gradle/caches/transforms-2/files-2.1/78621dc3f1ba5432dee32c4f31831c67/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/aubinlohier/.gradle/caches/transforms-2/files-2.1/496940b4f6f542454ca3b46486edc193/AndroidManifest.xml:17:1-22:12
+MERGED from [jp.wasabeef:glide-transformations:2.0.2] /Users/aubinlohier/.gradle/caches/transforms-2/files-2.1/947c7399b1d70720f1924ff225bb6ea4/AndroidManifest.xml:2:1-12:12
+MERGED from [android.arch.persistence.room:runtime:1.1.1] /Users/aubinlohier/.gradle/caches/transforms-2/files-2.1/8b43bc2e98d39793d70f687c77b1626b/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/aubinlohier/.gradle/caches/transforms-2/files-2.1/58885b08b51849afdfe65a16e07c6751/AndroidManifest.xml:2:1-11:12
+MERGED from [com.facebook.stetho:stetho:1.5.0] /Users/aubinlohier/.gradle/caches/transforms-2/files-2.1/a2cb48446d8f7f4205b1422bdbd53c69/AndroidManifest.xml:2:1-13:12
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /Users/aubinlohier/.gradle/caches/transforms-2/files-2.1/a90df7540a0fae335b11e94a0844cf66/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-v4:28.0.0] /Users/aubinlohier/.gradle/caches/transforms-2/files-2.1/acfcdef90298b2c502f08351aabe567b/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/aubinlohier/.gradle/caches/transforms-2/files-2.1/7ed9469fe9f75d117f5180d01c4689ac/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/aubinlohier/.gradle/caches/transforms-2/files-2.1/3f6936a64e07028f64386e5476a44cfc/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/aubinlohier/.gradle/caches/transforms-2/files-2.1/50afe32ef8b1391b913f55fcd7f096ad/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/aubinlohier/.gradle/caches/transforms-2/files-2.1/1885aa2418a2761d9615cbef416abea2/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/aubinlohier/.gradle/caches/transforms-2/files-2.1/745839781f54accb14f848237c910d40/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:28.0.0] /Users/aubinlohier/.gradle/caches/transforms-2/files-2.1/61cbb1985bd4c4e040464b3b9262b177/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:28.0.0] /Users/aubinlohier/.gradle/caches/transforms-2/files-2.1/7dad6aedc48a52eca96ddae6d4ecc3a4/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] /Users/aubinlohier/.gradle/caches/transforms-2/files-2.1/b4a3c39ae9ee9d71ec8ceb74aa884bcf/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] /Users/aubinlohier/.gradle/caches/transforms-2/files-2.1/c7753469273296918595fbe0d5fa603a/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/aubinlohier/.gradle/caches/transforms-2/files-2.1/95baedb69ba0845cd4d005b46ecaa1a7/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/aubinlohier/.gradle/caches/transforms-2/files-2.1/bbbd7e19eb99048b686384d8fbdb29ac/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/aubinlohier/.gradle/caches/transforms-2/files-2.1/cd65ff6eb0b1b471c3da356f7384bc0d/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] /Users/aubinlohier/.gradle/caches/transforms-2/files-2.1/e384d2237026df168d9ebd504845fe70/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/aubinlohier/.gradle/caches/transforms-2/files-2.1/7836beb99327227260abb58e29a96299/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/aubinlohier/.gradle/caches/transforms-2/files-2.1/7073ef65719ecf499821637a8b239b28/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] /Users/aubinlohier/.gradle/caches/transforms-2/files-2.1/2e17a3e6123ff9f2348044e45a2331f7/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/aubinlohier/.gradle/caches/transforms-2/files-2.1/934552fddc1c4c20b792ed1d1772d2ed/AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/aubinlohier/.gradle/caches/transforms-2/files-2.1/2090a9396c67b5c4a6bb149659ad0d44/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.persistence:db-framework:1.1.1] /Users/aubinlohier/.gradle/caches/transforms-2/files-2.1/7af6d57645c64a49d08d73de2972fd0b/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.persistence:db:1.1.1] /Users/aubinlohier/.gradle/caches/transforms-2/files-2.1/52425b561b232660e83d943b0567cf69/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/aubinlohier/.gradle/caches/transforms-2/files-2.1/927fcb55cd69be50eff7b31ca6e42faa/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/aubinlohier/.gradle/caches/transforms-2/files-2.1/99130f358cf555f8a7e95ac68822300c/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] /Users/aubinlohier/.gradle/caches/transforms-2/files-2.1/bf2ef697487f94f9ecd18ddaa98bf280/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cardview-v7:28.0.0] /Users/aubinlohier/.gradle/caches/transforms-2/files-2.1/3ac71793180c699076904b725317ae08/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/aubinlohier/.gradle/caches/transforms-2/files-2.1/2fad6494d403630b3f74e114358c43cd/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] /Users/aubinlohier/.gradle/caches/transforms-2/files-2.1/491f2dd9b6f28622b291a0be4d9b875d/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/aubinlohier/.gradle/caches/transforms-2/files-2.1/538276228654aebf1dce3c44ea5f7c37/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] /Users/aubinlohier/.gradle/caches/transforms-2/files-2.1/994a085efdc7b688dcac4d968ba81498/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/aubinlohier/.gradle/caches/transforms-2/files-2.1/e935027a3edfceadc3d39dae93211a63/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] /Users/aubinlohier/.gradle/caches/transforms-2/files-2.1/e0c1e6398c56b9941eb467bbf454f6a7/AndroidManifest.xml:17:1-22:12
+INJECTED from /Users/aubinlohier/Desktop/TwitterApp/app/src/main/AndroidManifest.xml:2:1-42:12
+INJECTED from /Users/aubinlohier/Desktop/TwitterApp/app/src/main/AndroidManifest.xml:2:1-42:12
+INJECTED from /Users/aubinlohier/Desktop/TwitterApp/app/src/main/AndroidManifest.xml:2:1-42:12
+	package
+		ADDED from /Users/aubinlohier/Desktop/TwitterApp/app/src/main/AndroidManifest.xml:3:5-51
+		INJECTED from /Users/aubinlohier/Desktop/TwitterApp/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/aubinlohier/Desktop/TwitterApp/app/src/main/AndroidManifest.xml
+	android:versionName
+		ADDED from /Users/aubinlohier/Desktop/TwitterApp/app/src/main/AndroidManifest.xml:5:5-30
+		INJECTED from /Users/aubinlohier/Desktop/TwitterApp/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/aubinlohier/Desktop/TwitterApp/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/aubinlohier/Desktop/TwitterApp/app/src/main/AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from /Users/aubinlohier/Desktop/TwitterApp/app/src/main/AndroidManifest.xml:4:5-28
+		INJECTED from /Users/aubinlohier/Desktop/TwitterApp/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/aubinlohier/Desktop/TwitterApp/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from /Users/aubinlohier/Desktop/TwitterApp/app/src/main/AndroidManifest.xml:7:5-67
+	android:name
+		ADDED from /Users/aubinlohier/Desktop/TwitterApp/app/src/main/AndroidManifest.xml:7:22-64
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/aubinlohier/Desktop/TwitterApp/app/src/main/AndroidManifest.xml:8:5-81
+	android:name
+		ADDED from /Users/aubinlohier/Desktop/TwitterApp/app/src/main/AndroidManifest.xml:8:22-78
+application
+ADDED from /Users/aubinlohier/Desktop/TwitterApp/app/src/main/AndroidManifest.xml:10:5-40:19
+MERGED from [com.android.support:design:28.0.0] /Users/aubinlohier/.gradle/caches/transforms-2/files-2.1/78621dc3f1ba5432dee32c4f31831c67/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:28.0.0] /Users/aubinlohier/.gradle/caches/transforms-2/files-2.1/78621dc3f1ba5432dee32c4f31831c67/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/aubinlohier/.gradle/caches/transforms-2/files-2.1/58885b08b51849afdfe65a16e07c6751/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/aubinlohier/.gradle/caches/transforms-2/files-2.1/58885b08b51849afdfe65a16e07c6751/AndroidManifest.xml:9:5-20
+MERGED from [com.facebook.stetho:stetho:1.5.0] /Users/aubinlohier/.gradle/caches/transforms-2/files-2.1/a2cb48446d8f7f4205b1422bdbd53c69/AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.stetho:stetho:1.5.0] /Users/aubinlohier/.gradle/caches/transforms-2/files-2.1/a2cb48446d8f7f4205b1422bdbd53c69/AndroidManifest.xml:11:5-20
+MERGED from [com.android.support:support-compat:28.0.0] /Users/aubinlohier/.gradle/caches/transforms-2/files-2.1/2e17a3e6123ff9f2348044e45a2331f7/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] /Users/aubinlohier/.gradle/caches/transforms-2/files-2.1/2e17a3e6123ff9f2348044e45a2331f7/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/aubinlohier/.gradle/caches/transforms-2/files-2.1/934552fddc1c4c20b792ed1d1772d2ed/AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/aubinlohier/.gradle/caches/transforms-2/files-2.1/934552fddc1c4c20b792ed1d1772d2ed/AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] /Users/aubinlohier/.gradle/caches/transforms-2/files-2.1/2e17a3e6123ff9f2348044e45a2331f7/AndroidManifest.xml:22:18-91
+	android:label
+		ADDED from /Users/aubinlohier/Desktop/TwitterApp/app/src/main/AndroidManifest.xml:14:9-25
+	android:icon
+		ADDED from /Users/aubinlohier/Desktop/TwitterApp/app/src/main/AndroidManifest.xml:13:9-49
+	android:allowBackup
+		ADDED from /Users/aubinlohier/Desktop/TwitterApp/app/src/main/AndroidManifest.xml:12:9-35
+	android:theme
+		ADDED from /Users/aubinlohier/Desktop/TwitterApp/app/src/main/AndroidManifest.xml:15:9-40
+	android:usesCleartextTraffic
+		ADDED from /Users/aubinlohier/Desktop/TwitterApp/app/src/main/AndroidManifest.xml:16:9-44
+	android:name
+		ADDED from /Users/aubinlohier/Desktop/TwitterApp/app/src/main/AndroidManifest.xml:11:9-35
+activity#com.codepath.apps.restclienttemplate.DetailsActivity
+ADDED from /Users/aubinlohier/Desktop/TwitterApp/app/src/main/AndroidManifest.xml:17:9-62
+	android:name
+		ADDED from /Users/aubinlohier/Desktop/TwitterApp/app/src/main/AndroidManifest.xml:17:19-50
+activity#com.codepath.apps.restclienttemplate.ComposeActivity
+ADDED from /Users/aubinlohier/Desktop/TwitterApp/app/src/main/AndroidManifest.xml:18:9-53
+	android:name
+		ADDED from /Users/aubinlohier/Desktop/TwitterApp/app/src/main/AndroidManifest.xml:18:19-50
+activity#com.codepath.apps.restclienttemplate.TimelineActivity
+ADDED from /Users/aubinlohier/Desktop/TwitterApp/app/src/main/AndroidManifest.xml:19:9-54
+	android:name
+		ADDED from /Users/aubinlohier/Desktop/TwitterApp/app/src/main/AndroidManifest.xml:19:19-51
+activity#com.codepath.apps.restclienttemplate.LoginActivity
+ADDED from /Users/aubinlohier/Desktop/TwitterApp/app/src/main/AndroidManifest.xml:20:9-39:20
+	android:label
+		ADDED from /Users/aubinlohier/Desktop/TwitterApp/app/src/main/AndroidManifest.xml:22:13-45
+	android:theme
+		ADDED from /Users/aubinlohier/Desktop/TwitterApp/app/src/main/AndroidManifest.xml:23:13-44
+	android:name
+		ADDED from /Users/aubinlohier/Desktop/TwitterApp/app/src/main/AndroidManifest.xml:21:13-42
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/aubinlohier/Desktop/TwitterApp/app/src/main/AndroidManifest.xml:24:13-28:29
+action#android.intent.action.MAIN
+ADDED from /Users/aubinlohier/Desktop/TwitterApp/app/src/main/AndroidManifest.xml:25:17-69
+	android:name
+		ADDED from /Users/aubinlohier/Desktop/TwitterApp/app/src/main/AndroidManifest.xml:25:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/aubinlohier/Desktop/TwitterApp/app/src/main/AndroidManifest.xml:27:17-77
+	android:name
+		ADDED from /Users/aubinlohier/Desktop/TwitterApp/app/src/main/AndroidManifest.xml:27:27-74
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:@string/intent_host+data:scheme:@string/intent_scheme
+ADDED from /Users/aubinlohier/Desktop/TwitterApp/app/src/main/AndroidManifest.xml:29:13-38:29
+action#android.intent.action.VIEW
+ADDED from /Users/aubinlohier/Desktop/TwitterApp/app/src/main/AndroidManifest.xml:30:17-69
+	android:name
+		ADDED from /Users/aubinlohier/Desktop/TwitterApp/app/src/main/AndroidManifest.xml:30:25-66
+category#android.intent.category.DEFAULT
+ADDED from /Users/aubinlohier/Desktop/TwitterApp/app/src/main/AndroidManifest.xml:32:17-76
+	android:name
+		ADDED from /Users/aubinlohier/Desktop/TwitterApp/app/src/main/AndroidManifest.xml:32:27-73
+category#android.intent.category.BROWSABLE
+ADDED from /Users/aubinlohier/Desktop/TwitterApp/app/src/main/AndroidManifest.xml:33:17-78
+	android:name
+		ADDED from /Users/aubinlohier/Desktop/TwitterApp/app/src/main/AndroidManifest.xml:33:27-75
+data
+ADDED from /Users/aubinlohier/Desktop/TwitterApp/app/src/main/AndroidManifest.xml:35:17-37:62
+	android:host
+		ADDED from /Users/aubinlohier/Desktop/TwitterApp/app/src/main/AndroidManifest.xml:36:21-55
+	android:scheme
+		ADDED from /Users/aubinlohier/Desktop/TwitterApp/app/src/main/AndroidManifest.xml:37:21-59
+uses-sdk
+INJECTED from /Users/aubinlohier/Desktop/TwitterApp/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/aubinlohier/Desktop/TwitterApp/app/src/main/AndroidManifest.xml
+INJECTED from /Users/aubinlohier/Desktop/TwitterApp/app/src/main/AndroidManifest.xml
+MERGED from [com.codepath.libraries:android-oauth-handler:1.4.0] /Users/aubinlohier/.gradle/caches/transforms-2/files-2.1/d9aa33e0e74c625e3c8fa6ba86754c2e/AndroidManifest.xml:7:5-9:41
+MERGED from [com.codepath.libraries:android-oauth-handler:1.4.0] /Users/aubinlohier/.gradle/caches/transforms-2/files-2.1/d9aa33e0e74c625e3c8fa6ba86754c2e/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:design:28.0.0] /Users/aubinlohier/.gradle/caches/transforms-2/files-2.1/78621dc3f1ba5432dee32c4f31831c67/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:28.0.0] /Users/aubinlohier/.gradle/caches/transforms-2/files-2.1/78621dc3f1ba5432dee32c4f31831c67/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/aubinlohier/.gradle/caches/transforms-2/files-2.1/496940b4f6f542454ca3b46486edc193/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/aubinlohier/.gradle/caches/transforms-2/files-2.1/496940b4f6f542454ca3b46486edc193/AndroidManifest.xml:20:5-44
+MERGED from [jp.wasabeef:glide-transformations:2.0.2] /Users/aubinlohier/.gradle/caches/transforms-2/files-2.1/947c7399b1d70720f1924ff225bb6ea4/AndroidManifest.xml:8:5-10:41
+MERGED from [jp.wasabeef:glide-transformations:2.0.2] /Users/aubinlohier/.gradle/caches/transforms-2/files-2.1/947c7399b1d70720f1924ff225bb6ea4/AndroidManifest.xml:8:5-10:41
+MERGED from [android.arch.persistence.room:runtime:1.1.1] /Users/aubinlohier/.gradle/caches/transforms-2/files-2.1/8b43bc2e98d39793d70f687c77b1626b/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.persistence.room:runtime:1.1.1] /Users/aubinlohier/.gradle/caches/transforms-2/files-2.1/8b43bc2e98d39793d70f687c77b1626b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/aubinlohier/.gradle/caches/transforms-2/files-2.1/58885b08b51849afdfe65a16e07c6751/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/aubinlohier/.gradle/caches/transforms-2/files-2.1/58885b08b51849afdfe65a16e07c6751/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.stetho:stetho:1.5.0] /Users/aubinlohier/.gradle/caches/transforms-2/files-2.1/a2cb48446d8f7f4205b1422bdbd53c69/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.stetho:stetho:1.5.0] /Users/aubinlohier/.gradle/caches/transforms-2/files-2.1/a2cb48446d8f7f4205b1422bdbd53c69/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /Users/aubinlohier/.gradle/caches/transforms-2/files-2.1/a90df7540a0fae335b11e94a0844cf66/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /Users/aubinlohier/.gradle/caches/transforms-2/files-2.1/a90df7540a0fae335b11e94a0844cf66/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:28.0.0] /Users/aubinlohier/.gradle/caches/transforms-2/files-2.1/acfcdef90298b2c502f08351aabe567b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:28.0.0] /Users/aubinlohier/.gradle/caches/transforms-2/files-2.1/acfcdef90298b2c502f08351aabe567b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/aubinlohier/.gradle/caches/transforms-2/files-2.1/7ed9469fe9f75d117f5180d01c4689ac/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/aubinlohier/.gradle/caches/transforms-2/files-2.1/7ed9469fe9f75d117f5180d01c4689ac/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/aubinlohier/.gradle/caches/transforms-2/files-2.1/3f6936a64e07028f64386e5476a44cfc/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/aubinlohier/.gradle/caches/transforms-2/files-2.1/3f6936a64e07028f64386e5476a44cfc/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/aubinlohier/.gradle/caches/transforms-2/files-2.1/50afe32ef8b1391b913f55fcd7f096ad/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/aubinlohier/.gradle/caches/transforms-2/files-2.1/50afe32ef8b1391b913f55fcd7f096ad/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/aubinlohier/.gradle/caches/transforms-2/files-2.1/1885aa2418a2761d9615cbef416abea2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/aubinlohier/.gradle/caches/transforms-2/files-2.1/1885aa2418a2761d9615cbef416abea2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/aubinlohier/.gradle/caches/transforms-2/files-2.1/745839781f54accb14f848237c910d40/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/aubinlohier/.gradle/caches/transforms-2/files-2.1/745839781f54accb14f848237c910d40/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] /Users/aubinlohier/.gradle/caches/transforms-2/files-2.1/61cbb1985bd4c4e040464b3b9262b177/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] /Users/aubinlohier/.gradle/caches/transforms-2/files-2.1/61cbb1985bd4c4e040464b3b9262b177/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] /Users/aubinlohier/.gradle/caches/transforms-2/files-2.1/7dad6aedc48a52eca96ddae6d4ecc3a4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] /Users/aubinlohier/.gradle/caches/transforms-2/files-2.1/7dad6aedc48a52eca96ddae6d4ecc3a4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /Users/aubinlohier/.gradle/caches/transforms-2/files-2.1/b4a3c39ae9ee9d71ec8ceb74aa884bcf/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /Users/aubinlohier/.gradle/caches/transforms-2/files-2.1/b4a3c39ae9ee9d71ec8ceb74aa884bcf/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /Users/aubinlohier/.gradle/caches/transforms-2/files-2.1/c7753469273296918595fbe0d5fa603a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /Users/aubinlohier/.gradle/caches/transforms-2/files-2.1/c7753469273296918595fbe0d5fa603a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/aubinlohier/.gradle/caches/transforms-2/files-2.1/95baedb69ba0845cd4d005b46ecaa1a7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/aubinlohier/.gradle/caches/transforms-2/files-2.1/95baedb69ba0845cd4d005b46ecaa1a7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/aubinlohier/.gradle/caches/transforms-2/files-2.1/bbbd7e19eb99048b686384d8fbdb29ac/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/aubinlohier/.gradle/caches/transforms-2/files-2.1/bbbd7e19eb99048b686384d8fbdb29ac/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/aubinlohier/.gradle/caches/transforms-2/files-2.1/cd65ff6eb0b1b471c3da356f7384bc0d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/aubinlohier/.gradle/caches/transforms-2/files-2.1/cd65ff6eb0b1b471c3da356f7384bc0d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /Users/aubinlohier/.gradle/caches/transforms-2/files-2.1/e384d2237026df168d9ebd504845fe70/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /Users/aubinlohier/.gradle/caches/transforms-2/files-2.1/e384d2237026df168d9ebd504845fe70/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/aubinlohier/.gradle/caches/transforms-2/files-2.1/7836beb99327227260abb58e29a96299/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/aubinlohier/.gradle/caches/transforms-2/files-2.1/7836beb99327227260abb58e29a96299/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/aubinlohier/.gradle/caches/transforms-2/files-2.1/7073ef65719ecf499821637a8b239b28/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/aubinlohier/.gradle/caches/transforms-2/files-2.1/7073ef65719ecf499821637a8b239b28/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /Users/aubinlohier/.gradle/caches/transforms-2/files-2.1/2e17a3e6123ff9f2348044e45a2331f7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /Users/aubinlohier/.gradle/caches/transforms-2/files-2.1/2e17a3e6123ff9f2348044e45a2331f7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/aubinlohier/.gradle/caches/transforms-2/files-2.1/934552fddc1c4c20b792ed1d1772d2ed/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/aubinlohier/.gradle/caches/transforms-2/files-2.1/934552fddc1c4c20b792ed1d1772d2ed/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/aubinlohier/.gradle/caches/transforms-2/files-2.1/2090a9396c67b5c4a6bb149659ad0d44/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/aubinlohier/.gradle/caches/transforms-2/files-2.1/2090a9396c67b5c4a6bb149659ad0d44/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.persistence:db-framework:1.1.1] /Users/aubinlohier/.gradle/caches/transforms-2/files-2.1/7af6d57645c64a49d08d73de2972fd0b/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.persistence:db-framework:1.1.1] /Users/aubinlohier/.gradle/caches/transforms-2/files-2.1/7af6d57645c64a49d08d73de2972fd0b/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.persistence:db:1.1.1] /Users/aubinlohier/.gradle/caches/transforms-2/files-2.1/52425b561b232660e83d943b0567cf69/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.persistence:db:1.1.1] /Users/aubinlohier/.gradle/caches/transforms-2/files-2.1/52425b561b232660e83d943b0567cf69/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/aubinlohier/.gradle/caches/transforms-2/files-2.1/927fcb55cd69be50eff7b31ca6e42faa/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/aubinlohier/.gradle/caches/transforms-2/files-2.1/927fcb55cd69be50eff7b31ca6e42faa/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/aubinlohier/.gradle/caches/transforms-2/files-2.1/99130f358cf555f8a7e95ac68822300c/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/aubinlohier/.gradle/caches/transforms-2/files-2.1/99130f358cf555f8a7e95ac68822300c/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /Users/aubinlohier/.gradle/caches/transforms-2/files-2.1/bf2ef697487f94f9ecd18ddaa98bf280/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /Users/aubinlohier/.gradle/caches/transforms-2/files-2.1/bf2ef697487f94f9ecd18ddaa98bf280/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] /Users/aubinlohier/.gradle/caches/transforms-2/files-2.1/3ac71793180c699076904b725317ae08/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] /Users/aubinlohier/.gradle/caches/transforms-2/files-2.1/3ac71793180c699076904b725317ae08/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/aubinlohier/.gradle/caches/transforms-2/files-2.1/2fad6494d403630b3f74e114358c43cd/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/aubinlohier/.gradle/caches/transforms-2/files-2.1/2fad6494d403630b3f74e114358c43cd/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /Users/aubinlohier/.gradle/caches/transforms-2/files-2.1/491f2dd9b6f28622b291a0be4d9b875d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /Users/aubinlohier/.gradle/caches/transforms-2/files-2.1/491f2dd9b6f28622b291a0be4d9b875d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/aubinlohier/.gradle/caches/transforms-2/files-2.1/538276228654aebf1dce3c44ea5f7c37/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/aubinlohier/.gradle/caches/transforms-2/files-2.1/538276228654aebf1dce3c44ea5f7c37/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /Users/aubinlohier/.gradle/caches/transforms-2/files-2.1/994a085efdc7b688dcac4d968ba81498/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /Users/aubinlohier/.gradle/caches/transforms-2/files-2.1/994a085efdc7b688dcac4d968ba81498/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/aubinlohier/.gradle/caches/transforms-2/files-2.1/e935027a3edfceadc3d39dae93211a63/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/aubinlohier/.gradle/caches/transforms-2/files-2.1/e935027a3edfceadc3d39dae93211a63/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /Users/aubinlohier/.gradle/caches/transforms-2/files-2.1/e0c1e6398c56b9941eb467bbf454f6a7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /Users/aubinlohier/.gradle/caches/transforms-2/files-2.1/e0c1e6398c56b9941eb467bbf454f6a7/AndroidManifest.xml:20:5-44
+INJECTED from /Users/aubinlohier/Desktop/TwitterApp/app/src/main/AndroidManifest.xml
+INJECTED from /Users/aubinlohier/Desktop/TwitterApp/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/aubinlohier/Desktop/TwitterApp/app/src/main/AndroidManifest.xml
+		ADDED from /Users/aubinlohier/Desktop/TwitterApp/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/aubinlohier/Desktop/TwitterApp/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/aubinlohier/Desktop/TwitterApp/app/src/main/AndroidManifest.xml
+		ADDED from /Users/aubinlohier/Desktop/TwitterApp/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/aubinlohier/Desktop/TwitterApp/app/src/main/AndroidManifest.xml
